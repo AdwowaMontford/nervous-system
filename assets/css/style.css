@@ -6,10 +6,31 @@
 /* Google sans code - general font */
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap");
 
+CSS variable 
 h1 {
     font-family: "DM Serif Text", serif;
 }
 
 p {
     font-family: "Google Sans Code", monospace;
+}
+
+/* global stylea */
+:root {
+--primary-font: "DM Serif Text", serif;
+--secondary-font: "Google Sans Code", monospace;
+--primary-color: #FCA311; /* Gold */
+--secondary-color: #E5E5E5; /* Grey */
+--highlight-color: #ffffff; /* white */
+--highlight-color-dark: #111C36; /* Navy */
+
+body {
+font-family: var(--secondary-font);
+/* font color is set to navy while screen is white. */
+color: var(--highlight-color-dark);
+}
+
+h1, h2, h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
 }
