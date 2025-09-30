@@ -1,0 +1,15 @@
+/* fonts import Google fonts  */
+
+/* DM Serif - header font  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+
+/* Google sans code - general font */
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap");
+
+h1 {
+    font-family: "DM Serif Text", serif;
+}
+
+p {
+    font-family: "Google Sans Code", monospace;
+}
