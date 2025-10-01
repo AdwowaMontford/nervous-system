@@ -6,26 +6,58 @@
 /* Google sans code - general font */
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap");
 
-
 /* global style */
 :root {
---primary-font: "DM Serif Text", serif;
---secondary-font: "Google Sans Code", monospace;
---primary-color: #FCA311; /* Gold */
---secondary-color: #E5E5E5; /* Grey */
---highlight-color: #ffffff; /* white */
---highlight-color-dark: #111C36; /* Navy */
---black-color: #000000; /* black */
-
-body {
-font-family: var(--secondary-font);
-/* font color is set to navy while screen is white. */
-color: var(--highlight-color-dark);
+    --primary-font: "DM Serif Text", serif;
+    --secondary-font: "Google Sans Code", monospace;
+    --primary-color: #feb234; /* Gold */
+    --secondary-color: #e5e5e5; /* Grey */
+    --highlight-color: #ffffff; /* white */
+    --highlight-color-dark: #111c36; /* Navy */
+    --black-color: #000000; /* black */
 }
 
-h1, h2, h3 {
+body {
+    font-family: var(--secondary-font);
+    /* font color is set to navy while screen is white. */
+    color: var(--highlight-color-dark);
+}
+
+h1,
+h2,
+h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+}
+
+p {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+/* header styling  */
+body {
+    margin: 0%;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    background-image: url(/assets/images/star-banner-resized.jpg);
+}
+
+.header-text {
+    font-size: x-large;
+    background-color: black;
+}
+
+.header-slogan {
+    font-size: small;
+    background-color: black;
+    text-align: center;
 }
 
 /* footer styling */
