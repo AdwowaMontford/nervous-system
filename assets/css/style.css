@@ -40,16 +40,31 @@ body {
     margin: 0%;
 }
 
-/* .header-div {
+.header-div {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     height: 20%;
-    background-image: url(/assets/images/star-banner-resized.jpg);
+    background-color: var(--black-color);
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
+
+.header-text {
+    font-size: 2rem;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    padding-left: 20px;
+    text-align: left;
+}
+
+.header-slogan {
+    font-size: small;
+    text-align: left;
+    padding-left: 20px;
+}
+
 
 /* Nav bar styling  */
 #nav-bar {
@@ -58,6 +73,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 20%;
+    background-color: black;
     background-image: url(/assets/images/star-banner-resized.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,17 +101,6 @@ body {
     width: 27px;
 }
 
-.header-text {
-    font-size: x-large;
-    padding-top: 20px;
-    letter-spacing: 0.2rem;
-}
-
-.header-slogan {
-    font-size: small;
-    text-align: center;
-}
-
 /* footer styling */
 footer {
     color: var(--primary-color);
@@ -117,3 +122,5 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+Need to make header responsive 

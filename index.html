@@ -25,8 +25,9 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 
 </head>
+<!-- class works with footer to make sure it's stuck to the bottom -->
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- navigation bar  -->
     <nav id="nav-bar" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -50,17 +51,28 @@
 
     <!-- header -->
     <header class="header-div">
-        <h1 class="header-text"> Nervous System </h1>
+        <h1 class="header-text"> Nervous<br>System </h1>
         <!-- TO to add - real slogan for the website -->
-        <p class="header-slogan"> This will be the slogan sentence for the website </p>
+        <p class="header-slogan"> Planet sized<br>big feelings </p>
+
     </header>
 
     <!-- main body -->
     <main>
-
+        <!-- Nervous system explanations -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">The intro</div>
+                <div class="col-12 col-md-6 col-xl-3">Flight</div>
+                <div class="col-12 col-md-6 col-xl-3">Fight</div>
+                <div class="col-12 col-md-6 col-xl-3">Fawn</div>
+                <div class="col-12 col-md-6 col-xl-3">Freeze</div>
+            </div>
+        </section>
     </main>
     <!-- footer -->
-    <footer>
+    <!-- mt-auto pushes and sticks footer to the bottom of the page -->
+    <footer class="mt-auto">
         <ul id="social-networks">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
