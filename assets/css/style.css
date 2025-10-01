@@ -47,16 +47,17 @@ body {
     flex-direction: column;
     height: 20%;
     background-image: url(/assets/images/star-banner-resized.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-text {
     font-size: x-large;
-    background-color: black;
+    padding-top: 20px;
 }
 
 .header-slogan {
     font-size: small;
-    background-color: black;
     text-align: center;
 }
 
@@ -64,6 +65,8 @@ body {
 footer {
     color: var(--primary-color);
     background-color: var(--black-color);
+    /* TO to - to turn on sticky code once the main is added: 
+    min-height: 100vh; */
 }
 
 #social-networks {
