@@ -77,9 +77,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 20%;
+    /* height: 20%; */
+    height: 200px;
     background-color: black;
-    background-image: url(/assets/images/star-banner-resized.jpg);
+    background-image: url(../assets/images/star-banner-resized.jpg)
+    /* background-image: url(/assets/images/star-banner-resized.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -183,4 +185,4 @@ footer {
 #stress-response card-body {
 }
 
-.astronaut;
+.
