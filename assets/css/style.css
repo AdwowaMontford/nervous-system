@@ -130,9 +130,29 @@ body {
 }
 
 .card-img-top {
-    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
     margin-bottom: 1.5rem;
     text-align: center;
+}
+
+/* Gounding video section */
+
+.astronaut {
+    margin-top: 2rem;
+    width: 30%;
+}
+
+#grounded-youtube {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
 }
 
 /* footer styling */
@@ -158,3 +178,9 @@ footer {
 }
 
 /* media queries  */
+
+/* medium screens (tablets 768 and up) */
+#stress-response card-body {
+}
+
+.astronaut;
