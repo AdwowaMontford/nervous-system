@@ -78,10 +78,10 @@ body {
     align-items: center;
     flex-direction: column;
     height: 20%;
-    background-color: var(--black-color);
-    background-image: url(/assets/images/star-banner-resized.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--black-color);
+    background-image: url(../images/star-banner-resized.jpg);
     /* display: flex;
     justify-content: center;
     align-items: center;
