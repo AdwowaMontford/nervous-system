@@ -38,6 +38,8 @@ p {
 /* header styling  */
 body {
     margin: 0%;
+    background-color: var(--black-color);
+    background-image: url(../images/header-background-image.jpg)
 }
 
 .header-div {
