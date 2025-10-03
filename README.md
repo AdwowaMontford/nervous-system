@@ -21,6 +21,7 @@ The landing page is also fully responsive across all screensizes. The language u
 The landing page is responsive across all screen sizes. The core aim of the page is to explain stress responses in a non-clinical manner. So, the language used is simple to understand. Each section is divided into a description of the response and how to deal with it. There is a video embedded with grounding techniques. This is also fully responsive across screen sizes and includes aria accessibility notations.
 
 UI
+
 •	space theme both visually and within the text
 •	the illustrations of the objects discussed aim to help with attention and comprehension.
 •	There are line breaks and padding between sections which could be used by an adult to explain the concepts further per user story 3.
