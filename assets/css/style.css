@@ -63,7 +63,7 @@ main {
 .header-div {
     display: flex;
     justify-content: center;
-    align-items: ;
+    align-items: center;
     flex-direction: column;
     height: 20%;
     background-color: var(--black-color);
@@ -153,7 +153,7 @@ main {
     text-align: center;
 }
 
-/* Gounding video section */
+/* Grounding video section */
 
 .astronaut {
     margin-top: 2rem;
@@ -174,10 +174,10 @@ iframe {
 /* footer styling */
 footer {
     color: var(--primary-color);
-    background-color: var(--black-color); 
- height: auto;
-padding-top: 300px;
-  padding: 10px;
+    background-color: var(--black-color);
+    height: auto;
+    padding-top: 300px;
+    padding: 10px;
 }
 
 #social-networks {
@@ -193,11 +193,3 @@ padding-top: 300px;
     padding: 5%;
     color: #3a3a3a;
 }
-
-/* media queries  */
-
-/* medium screens (tablets 768 and up) */
-#stress-response card-body {
-}
-
-.
