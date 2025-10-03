@@ -48,3 +48,19 @@ UI
 
 ### Features Left to Implement
 Due to time constraints, I was unable to complete a contact forms page. 
+
+## Testing 
+### Validator Testing 
+Throughout the development of the site there was manual testing as well as CSS and HTML validation services. Using lighthouse testing, the site currently scores:
+
+* 99 in Performace
+* 100 in Accessability
+* 100 in SEO
+* 78 in Best Practices
+While performance, accessibility and SEO within tolerance, the best practices is not. I will continue to learn and improve in order to bring this up in my upcoming projects. 
+
+![Results from the lighthouse testing] ADD 
+![Results from testing the image validation] ADD
+
+### Unfixed Bugs
+I debugged throughout the project, as a result, the final project has no bugs, 
