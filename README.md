@@ -1,5 +1,7 @@
-# nervous-system
-DEPLOYED URL LINKS
+# Nervous System
+
+https://adwowamontford.github.io/nervous-system/
+
 The nervous system website aimed to teach children about the nervous system stress responses by comparing it to the solar system. The website is themed for approachability with simple to understand language that is appropriate for children. The resources page provides useful links to empower people to gain more information to help themselves and those around them. 
 
 ## Features 
