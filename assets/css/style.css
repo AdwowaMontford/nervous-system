@@ -72,11 +72,8 @@ main {
 }
 
 .header-text {
-    font-size: 2rem;
-    padding-top: 20px;
-    /* padding-bottom: 20px; */
-    padding-left: 20px;
-    text-align: left;
+    font-size: 4rem;
+    text-align: center;
 }
 
 .header-slogan {
@@ -169,6 +166,12 @@ main {
 iframe {
     aspect-ratio: 16 / 9;
     width: 100% !important;
+}
+
+/* Resources page  */
+.btn {
+    background-color: black;
+    color: var(--primary-color);
 }
 
 /* footer styling */
