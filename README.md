@@ -4,7 +4,7 @@ https://adwowamontford.github.io/nervous-system/
 
 The nervous system website aimed to teach children about the nervous system stress responses by comparing it to the solar system. The website is themed for approachability with simple to understand language that is appropriate for children. The resources page provides useful links to empower people to gain more information to help themselves and those around them. 
 
-#user stories
+## User stories 
 1. As a child, I want the website to be colorful and fun, even though the topic is sad, so that I can feel more comfortable and safe while using it.
 2. As a child, I want the website content to use simple and easy-to-understand words, so that I can read and understand it on my own.
 3. As a parent, I want a gentle and approachable way to talk to my child about mental health, using comparisons to physical objects, so that they can better understand and relate to complex emotions.
