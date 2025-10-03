@@ -64,3 +64,28 @@ While performance, accessibility and SEO within tolerance, the best practices is
 
 ### Unfixed Bugs
 I debugged throughout the project, as a result, the final project has no bugs, 
+
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+•	Go to the Settings tab of your GitHub repo.
+•	On the left-hand sidebar, in the Code and automation section, select Pages.
+•	Make sure the source is set to 'Deploy from Branch'.
+•	Make sure the main branch is selected.
+•	Make sure the folder is set to / (root).
+•	Under Branch, click Save.
+•	Go back to the Code tab and wait a few minutes before refreshing.
+•	On the right-hand side in the Deployments section click on 'github-pages'.
+•	The latest deployed link will appear at the top of the page.
+The live project is here: https://adwowamontford.github.io/nervous-system/ 
+## Credits 
+
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+### Content 
+- The illustration were purchased from [FlatIcons](https://www.flaticon.com/free-animated-icons/weather)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+- The photos used throughout the website were sourced from an open-source website, Unsplash. 
